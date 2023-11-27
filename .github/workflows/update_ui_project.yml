@@ -8,7 +8,6 @@ on:
 jobs:
   update-submodule:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout UI Project Repository
         uses: actions/checkout@v2
